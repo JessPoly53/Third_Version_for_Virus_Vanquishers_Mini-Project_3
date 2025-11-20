@@ -13,14 +13,14 @@
 // Function prototypes
 int null(int);
 int null2(int);
-int bounds(int);
+//int bounds(int); commented out to run Case 1 and 2.
 
 int main()
 {
 	int p = getpid();
 	null(p);
 	null2(p);
-	bounds(p);
+	//bounds(p); commented out to run Case 1 and 2.
 	exit();
 }
 
