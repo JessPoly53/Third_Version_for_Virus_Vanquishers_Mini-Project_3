@@ -146,7 +146,7 @@ dist: clean
 # Build Recipies
 ################################################################################
 
-include $(DEPS)
+-include $(DEPS)
 
 %.asm: %.o
 	$(OBJDUMP) -S $< > $@
